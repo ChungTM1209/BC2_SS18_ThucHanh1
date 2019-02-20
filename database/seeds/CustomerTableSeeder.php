@@ -21,6 +21,6 @@ class CustomerTableSeeder extends Seeder
                 'updated_at' => date('Y-m-d H:i:s')
             ]);
         }
-        DB::table('customer')->insert($dataArray);
+        DB::table('customers')->insert($dataArray);
     }
 }
